@@ -7,8 +7,6 @@ export default function HomePayment() {
           <span>How to</span> Pay
         </h1>
       </header>
-
-
     </section>
   );
 }
