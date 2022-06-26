@@ -16,14 +16,14 @@ export default function HeaderPrimary() {
           </li>
 
           <li>
-            <a href="https://x.ro" title="MEN'S">
-            MEN'S
+            <a href="https://x.ro" title="MENS">
+            MENS
             </a>
           </li>
 
           <li>
-            <a href="https://x.ro" title="WOMEN'S">
-            WOMEN'S
+            <a href="https://x.ro" title="WOMENS">
+            WOMENS
             </a>
           </li>
 

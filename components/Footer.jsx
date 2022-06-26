@@ -30,8 +30,8 @@ export default function Footer() {
 
             <ul>
               <li>
-                <a href="https://x.ro" title="style & fit advice">
-                style & fit advice
+                <a href="https://x.ro" title="style + fit advice">
+                style + fit advice
                 </a>
               </li>
 
@@ -48,8 +48,8 @@ export default function Footer() {
               </li>
 
               <li>
-                <a href="https://x.ro" title="exchanges & returns">
-                exchanges & returns
+                <a href="https://x.ro" title="exchanges + returns">
+                exchanges + returns
                 </a>
               </li>
             </ul>
