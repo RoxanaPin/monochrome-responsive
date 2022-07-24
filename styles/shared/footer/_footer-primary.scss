@@ -19,6 +19,8 @@
   }
 
   .footer-nav {
+    margin-top: 48px;
+
     display: flex;
     flex-wrap: wrap;
     row-gap: 43px;
@@ -44,15 +46,46 @@
     @include media-breakpoint-up('lg') {
       align-self: end;
     }
+
+    h1 {
+      font-weight: 100;
+    }
+
+    span {
+      font-weight: bold;
+    }
+
+    a {
+      display: block;
+    }
+
+    a:nth-of-type(2) {
+      color: $brand-primary;
+    }
   }
 
   .footer-support {
     grid-area: support;
     justify-self: center;
+    margin-bottom: 48px;
 
     @include media-breakpoint-up('lg') {
       justify-self: start;
       align-self: end;
+    }
+
+    ul {
+      display: flex;
+      font-size: 16px;
+      gap: 24px;
+    }
+
+    i {
+      color: $brand-primary;
+      margin: 12px;
+      font-size: 48px;
+      display: block;
+      align-items: center;
     }
   }
 }

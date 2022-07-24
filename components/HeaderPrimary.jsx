@@ -4,43 +4,58 @@ export default function HeaderPrimary() {
       <nav className="nav-primary">
         <ul>
           <li>
-            <a href="https://x.ro" title="NEW ARRIVALS">
-            NEW ARRIVALS
+            <a href="https://x.ro" title="Home">
+              Home
             </a>
           </li>
 
           <li>
-            <a href="https://x.ro" title="BRANDS">
-            BRANDS
+            <a href="https://x.ro" title="Costume">
+              Costume
             </a>
           </li>
 
           <li>
-            <a href="https://x.ro" title="MENS">
-            MENS
+            <a href="https://x.ro" title="Camasi">
+              Camasi
             </a>
           </li>
 
           <li>
-            <a href="https://x.ro" title="WOMENS">
-            WOMENS
-            </a>
-          </li>
-
-          <li>
-            <a href="https://x.ro" title="ACCESORIES">
-            ACCESORIES
-            </a>
-          </li>
-
-          <li>
-            <a href="https://x.ro" title="LOOKBOOK">
-            LOOKBOOK
+            <a href="https://x.ro" title="Accesorii">
+              Accesorii
             </a>
           </li>
         </ul>
       </nav>
 
+      <nav className="nav-secondary">
+        <ul>
+          <li>
+            <a href="https://x.ro" title="Glamour suits">
+              Glamour suits
+            </a>
+          </li>
+
+          <li>
+            <a href="https://x.ro" title="Wedding Suits">
+              Wedding Suits
+            </a>
+          </li>
+
+          <li>
+            <a href="https://x.ro" title="Office Suits">
+              Office Suits
+            </a>
+          </li>
+
+          <li>
+            <a href="https://x.ro" title="Customize your suit">
+              Customize your suit
+            </a>
+          </li>
+        </ul>
+      </nav>
     </section>
   );
 }

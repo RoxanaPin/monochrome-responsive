@@ -1,6 +1,13 @@
 @import './home-payment';
+@import './home-social';
+@import './home-newsletter';
+@import './content-banner';
 
-.content {
+.content-main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
   & > section {
     & > header {
       text-align: center;
