@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  font-family: 'Playfair', 'Bold';
 
   & > section {
     & > header {
@@ -19,9 +20,10 @@
 
         @include media-breakpoint-up('lg') {
           font-weight: 500;
-          color: $gray-secondary;
+          color: $gray-quaternary;
           text-transform: unset;
-          font-size: 41px;
+          font-size: 35px;
+          font: normal normal bold 35px/47px Playfair Display;
 
           span {
             font-weight: 300;

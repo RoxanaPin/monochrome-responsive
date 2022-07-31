@@ -14,7 +14,7 @@ export default function ProductTile() {
         </a>
 
         <span className="badge badge-oversized">
-          <i class="fa-regular fa-heart"></i>
+          <i className="fa-regular fa-heart"></i>
         </span>
 
         <div className="mt-4 text-center">
@@ -37,9 +37,9 @@ export default function ProductTile() {
       </section>
 
       <footer className="product-tile-controls text-center mt-4">
-        <button className="button" type="button" title="Add to Cart">
-          Add to Cart
-        </button>
+        {/* <button className="button" type="button" title="view all">
+          view all
+        </button> */}
       </footer>
     </article>
   );

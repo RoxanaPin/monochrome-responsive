@@ -1,6 +1,8 @@
 export default function ContentBanner() {
   return (
     <div className="content-banner">
+      {/* content-banner === header-top */}
+
       <div className="content-banner-inner container">
         {/* <div className="text-center">
           <h1>Custom Suits</h1>
@@ -17,7 +19,9 @@ export default function ContentBanner() {
           </a>
         </div> */}
 
-        <div className="header-support d-none d-lg-block">
+        <div className="header-connect d-none d-lg-block">
+          {/* header-support === header-connect */}
+
           <ul>
             <li>
               <a
@@ -37,7 +41,7 @@ export default function ContentBanner() {
                 rel="noopener noreferrer"
                 title="Follow Thread Affair on Twitter"
               >
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
               </a>
             </li>
 
@@ -72,6 +76,7 @@ export default function ContentBanner() {
         </div>
 
         <div className="header-search d-lg-none">
+          {/* doar pe mobil */}
           <ul>
             <li>
               <a href="http://pixellab.ro" title="Menu">
@@ -122,17 +127,19 @@ export default function ContentBanner() {
         </div>
 
         <footer className="content-banner-copy">
+          {/* content-banner-copy === header-bottom */}
+
           {/* <p className="m-0">
             A Tailored Suit that will fit you perfectly is a dream for
             everybody.
           </p> */}
 
           {/* <p className="m-0 d-none d-lg-block">
-            <a href="/" title="New Arrivals" class="loader">
+            <a href="/" title="New Arrivals" className="loader">
               NEW ARRIVALS
             </a>
 
-            <a href="/" title="Brands" class="loader">
+            <a href="/" title="Brands" className="loader">
               BRANDS
             </a>
           </p> */}
@@ -152,14 +159,14 @@ export default function ContentBanner() {
               </li>
 
               <li>
-                <a href="https://x.ro" title="MEN'S">
-                  MEN'S
+                <a href="https://x.ro" title="MEN`S">
+                  MEN`S
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="WOMEN'S">
-                  WOMEN'S
+                <a href="https://x.ro" title="WOMEN`S">
+                  WOMEN`S
                 </a>
               </li>
 

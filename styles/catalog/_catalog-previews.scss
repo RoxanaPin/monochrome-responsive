@@ -4,11 +4,11 @@
   &.grid-layout {
     .product-tiles {
       display: grid;
-      row-gap: 24px;
+      row-gap: 12px;
 
       @include media-breakpoint-up('lg') {
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 8.855799%;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 4%;
       }
     }
   }
@@ -24,9 +24,81 @@
         justify-content: space-between;
 
         & > .product-tile {
-          flex-basis: 27.429467%;
+          flex-basis: 24%;
         }
       }
+    }
+  }
+}
+
+.catalog-preview {
+  &.flex-layout {
+    .home-content {
+      display: flex;
+      // justify-content: flex-end;
+      // align-items: center;
+    }
+
+    .home-content .aside {
+      margin-right: 5%;
+    }
+
+    .home-content .section {
+      text-align: left;
+      font: normal normal 300 22px/43px Roboto;
+      letter-spacing: 0.33px;
+      color: #2b2b2b;
+      opacity: 1;
+    }
+
+    .home-content .section > h2 > span {
+      text-align: left;
+      font: normal normal bold 44px/33px Playfair Display;
+      letter-spacing: 0.66px;
+      color: #2b2b2b;
+      opacity: 1;
+    }
+
+    .home-content .section p {
+      margin-top: 8%;
+    }
+
+    @include media-breakpoint-up('lg') {
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 4%;
+    }
+  }
+}
+
+.catalog-preview {
+  &.flex-layout {
+    .button {
+      display: flex;
+      font: normal normal normal 22px/22px Roboto;
+      background-color: $brand-primary;
+      color: $black;
+      text-decoration: none;
+      padding: 15px 35px;
+      line-height: 19px;
+      border: 1px solid $brand-primary;
+      transition: color 0.2s linear, background-color 0.2s linear;
+      display: inline-block;
+
+      &:hover {
+        color: $black;
+        background-color: transparent;
+      }
+
+      &-large {
+        // .button-large
+        padding: 30px 70px;
+        border-radius: 60px;
+        font-size: 20px;
+      }
+    }
+    @include media-breakpoint-up('lg') {
+      grid-template-columns: repeat(1, 1fr);
+      column-gap: 4%;
     }
   }
 }

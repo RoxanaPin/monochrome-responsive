@@ -1,7 +1,7 @@
 .content-banner {
   height: 716px;
-  background: $gray-secondary url('/images/banners/banner.png') no-repeat center
-    center / cover;
+  background: $gray-quaternary url('/images/banners/banner.png') no-repeat
+    center center / cover;
   color: $white;
   font-weight: 300;
 
@@ -15,12 +15,35 @@
     position: relative;
 
     @include media-breakpoint-up('lg') {
-      // align-items: flex-end;
+      align-items: flex-start;
     }
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+
+    .header-controls {
+      float: right;
+      color: #2b2b2b;
+    }
+    /* iconite cont favorite shop */
+
+    .header-controls ul {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin: 10px;
+    }
+
+    .header-controls input {
+      border: 0;
+      padding: 4px;
+    }
+
+    .header-controls form {
+      border: 1px solid grey;
+      padding: 4px;
+    }
 
     // .header-logo {
     //   grid-column: 1 / -1;
@@ -80,8 +103,8 @@
           span {
             min-width: 21px;
             height: 21px;
-            background-color: $gray-primary;
-            color: $dark;
+            background-color: $red-primary;
+            color: $light;
             font-weight: bold;
             font-size: 14px;
             border-radius: 10px;
@@ -97,15 +120,16 @@
       }
     }
 
-    .header-support {
+    .header-connect {
       grid-column: 1 / span 1;
       grid-row: 1 / span 1;
-      justify-self: start;
-      align-self: center;
+      // justify-self: start;
+      // align-self: center;
+      float: left;
 
-      ul {
-        display: flex;
-        gap: 4px;
+      li {
+        display: inline-block;
+        margin: 10px;
       }
 
       i {
@@ -153,23 +177,30 @@
   }
 
   .nav-secondary {
+    width: 100%;
+    background: $gray-quaternary no-repeat center center / cover;
+    // background-size: cover;
+    padding: 16px 0;
     ul {
-      margin-top: 36px;
-      margin-bottom: 36px;
+      font: normal normal normal 19px/22px Playfair Display;
+      letter-spacing: 0.28px;
+      color: $brand-primary;
+      width: 1290px;
       display: flex;
-      justify-content: center;
-      gap: 8px;
-      text-transform: uppercase;
-      font-size: 20px;
-      font-weight: 300;
+      justify-content: space-between;
+      align-items: center;
 
-      a {
-        padding: 8px 16px;
-        border-radius: 24px;
+      li {
+        padding: 8px 18px;
+        margin: 0 4px;
+        font-size: 20px;
+        font-weight: 300;
         transition: color 0.2s linear, background-color 0.2s linear;
 
         &:hover {
-          color: $brand-primary;
+          color: $red-primary;
+          background-color: $light;
+          border-radius: 75%;
         }
       }
     }
