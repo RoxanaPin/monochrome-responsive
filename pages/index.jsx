@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Thead Affair</title>
+        <title>Monochrome</title>
       </Head>
 
       <Header></Header>

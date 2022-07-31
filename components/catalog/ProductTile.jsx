@@ -13,7 +13,9 @@ export default function ProductTile() {
           ></img>
         </a>
 
-        <span className="badge badge-oversized">%</span>
+        <span className="badge badge-oversized">
+          <i class="fa-regular fa-heart"></i>
+        </span>
 
         <div className="mt-4 text-center">
           <h1 className="product-tile-title">
